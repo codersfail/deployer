@@ -11,7 +11,7 @@ name: deploy
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 concurrency: production_environment
 
