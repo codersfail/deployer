@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         uses: deployphp/action@v1
         with:
-          private-key: ${{ secrets.PRIVATE_KEY }}
+          private-key: ${{ secrets.SSH_KEY }}
           dep: deploy
 ```
 
